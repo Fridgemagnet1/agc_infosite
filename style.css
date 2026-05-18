@@ -562,6 +562,11 @@ footer {
   margin-bottom: 0;
 }
 
+.brand-logo--pablo {
+  max-height: 56px;
+  max-width: 160px;
+}
+
 .brand-eyebrow {
   font-size: 0.75rem;
   font-weight: 600;
