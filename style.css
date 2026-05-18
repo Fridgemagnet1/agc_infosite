@@ -5,13 +5,13 @@
 }
 
 :root {
-  --bg: #0d1117;
-  --bg-secondary: #161b22;
-  --border: #30363d;
-  --text: #e6edf3;
-  --text-muted: #8b949e;
-  --accent: #58a6ff;
-  --accent-hover: #79b8ff;
+  --bg: #ffffff;
+  --bg-secondary: #f5f7fa;
+  --border: #e2e6ea;
+  --text: #1a1f2e;
+  --text-muted: #6b7280;
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
 }
 
 body {
@@ -31,8 +31,8 @@ nav {
   padding: 0 2rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  height: 60px;
+  justify-content: center;
+  height: 70px;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -44,6 +44,8 @@ nav {
   color: var(--text);
   text-decoration: none;
   letter-spacing: 0.05em;
+  position: absolute;
+  left: 2rem;
 }
 
 .nav-logo span {
@@ -53,13 +55,13 @@ nav {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 .nav-links a {
   color: var(--text-muted);
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 1.1rem;
   transition: color 0.2s;
 }
 
@@ -104,7 +106,7 @@ main {
 .btn {
   display: inline-block;
   background: var(--accent);
-  color: #0d1117;
+  color: #ffffff;
   padding: 0.75rem 2rem;
   border-radius: 6px;
   text-decoration: none;
@@ -126,7 +128,7 @@ main {
 
 .btn-outline:hover {
   background: var(--accent);
-  color: #0d1117;
+  color: #ffffff;
 }
 
 /* Cards */
@@ -308,7 +310,7 @@ form textarea {
 
 form button {
   background: var(--accent);
-  color: #0d1117;
+  color: #ffffff;
   border: none;
   padding: 0.75rem 1.5rem;
   border-radius: 6px;
