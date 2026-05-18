@@ -349,13 +349,6 @@ footer {
   border-left: 4px solid var(--brand-accent, var(--accent));
 }
 
-.brand-block--reverse {
-  direction: rtl;
-}
-
-.brand-block--reverse > * {
-  direction: ltr;
-}
 
 .brand-image-wrap {
   display: flex;
@@ -389,10 +382,10 @@ footer {
 }
 
 .brand-logo {
-  max-height: 48px;
-  max-width: 180px;
+  max-height: 52px;
+  max-width: 200px;
   object-fit: contain;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   display: block;
 }
 
