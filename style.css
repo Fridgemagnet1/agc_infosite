@@ -388,6 +388,27 @@ footer {
   min-height: 220px;
 }
 
+.brand-logo {
+  max-height: 48px;
+  max-width: 180px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.brand-logo-pair {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.brand-logo--pair {
+  max-height: 40px;
+  max-width: 130px;
+  margin-bottom: 0;
+}
+
 .brand-eyebrow {
   font-size: 0.75rem;
   font-weight: 600;
@@ -468,6 +489,10 @@ footer {
 
 .float--delay {
   animation-delay: 1s;
+}
+
+.float--delay-2 {
+  animation-delay: 2s;
 }
 
 @media (max-width: 720px) {
